@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         YouTubeSpoilerVoider
+// @license      GPLv3
 // @version      0.1.0
 // @description  Hide youtube video durations
 // @author       peterhieuvu
 // @match        https://www.youtube.com/*
 // @grant        none
-// @license      GPLv3
+// @source       https://github.com/peterhieuvu/ytspoilervoider/tree/main
+// @updateUrl    https://raw.githubusercontent.com/peterhieuvu/ytspoilervoider/main/ytspoilervoider.user.js
+// @downloadUrl  https://raw.githubusercontent.com/peterhieuvu/ytspoilervoider/main/ytspoilervoider.user.js
 // ==/UserScript==
 
 (function() {
