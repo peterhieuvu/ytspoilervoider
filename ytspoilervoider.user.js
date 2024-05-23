@@ -59,6 +59,8 @@
     const decorateVideoPlayer = () => {
         console.log('applying ytspoilervoider decorations')
 
+        if (!window.location.pathname.startsWith('/watch')) return true; // no need to decorate if we aren't watching a video
+
         const durationElement = document.querySelector('.ytp-time-duration');
         if (durationElement) {
             const container = durationElement.parentNode;
