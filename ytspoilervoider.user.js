@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTubeSpoilerVoider
 // @license      GPLv3
-// @version      0.1.2
+// @version      0.1.3
 // @description  Hide youtube video durations
 // @author       peterhieuvu
 // @match        https://www.youtube.com/*
@@ -52,7 +52,7 @@
             seekVideo(duration);
         });
 
-        el.style.marginLeft = '15px';
+        el.style.marginLeft = '20px';
         container.appendChild(el);
     }
 
