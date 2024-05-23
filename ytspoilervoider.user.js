@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTubeSpoilerVoider
 // @license      GPLv3
-// @version      0.1.1
+// @version      0.1.2
 // @description  Hide youtube video durations
 // @author       peterhieuvu
 // @match        https://www.youtube.com/*
@@ -59,7 +59,7 @@
     const decorateVideoPlayer = () => {
         console.log('applying ytspoilervoider decorations')
 
-        if (!window.location.pathname.startsWith('/watch')) return true; // no need to decorate if we aren't watching a video
+        // if (!window.location.pathname.startsWith('/watch')) return true; // no need to decorate if we aren't watching a video
 
         const durationElement = document.querySelector('.ytp-time-duration');
         if (durationElement) {
