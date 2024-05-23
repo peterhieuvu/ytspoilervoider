@@ -5,6 +5,11 @@ Tampermonkey/Violentmonkey/Greasemonkey Script to avoid spoilers by hiding youtu
 
 # Add to your userscript extension
 
+### Prerequisites
+You need a userscript extension. I use [Tampermonkey](https://www.tampermonkey.net/) and have heard good things about [Violentmonkey](https://violentmonkey.github.io/).
+
+Install one of the userscript extensions into your browser and then follow the steps below.
+
 ### Automatic
 If you use tampermonkey, you should be able to click the link below:
 
