@@ -4,7 +4,7 @@
 // @version      0.1.3
 // @description  Hide youtube video durations
 // @author       peterhieuvu
-// @match        https://www.youtube.com/*
+// @match        https://*.youtube.com/*
 // @grant        none
 // @source       https://github.com/peterhieuvu/ytspoilervoider/tree/main
 // @updateUrl    https://raw.githubusercontent.com/peterhieuvu/ytspoilervoider/main/ytspoilervoider.user.js
