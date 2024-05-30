@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTubeSpoilerVoider
 // @license      GPLv3
-// @version      0.1.3
+// @version      0.1.4
 // @description  Hide youtube video durations
 // @author       peterhieuvu
 // @match        https://*.youtube.com/*
